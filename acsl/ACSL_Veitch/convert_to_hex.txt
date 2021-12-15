@@ -1,0 +1,3 @@
+x = [True, False, True, False, True, False ]
+v = sum(a<<i for i,a in enumerate(x))
+print hex(v)
